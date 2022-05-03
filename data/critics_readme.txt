@@ -13,3 +13,8 @@ This file maps item ID's to movie titles and consists of the following string fi
 (2) | (separator)
 (3) movie title
 
+critics_movies.genre
+This file maps movie genre to movie genre index and consists of the following string fields:
+(1) movie genre
+(2) | (separator)
+(3) movie genre index
