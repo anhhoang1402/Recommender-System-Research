@@ -1,6 +1,6 @@
-#INSTRUCTIONS ON HOW TO RUN RECOMMENDATIONS.PY
+#**INSTRUCTIONS ON HOW TO RUN RECOMMENDATIONS.PY**
 
-##Overview of the program
+## **Overview of the program**
 
 recommendations.py is a program that performs the following recommender system on the crtics and ML-100k dataset from grouplens.org:
 
@@ -12,7 +12,7 @@ recommendations.py is a program that performs the following recommender system o
 6. Content-based recommender system Term Frequency - Inverse Document Frequency (TFIDF) with similarity threshold as parameter
 7. Hybrid Recommender system (TFIDF and Item-Based): TFIDF-Pearson, TFIDF-Distance with weight parameter
 
-##The program provides the following functionality:
+##**The program provides the following functionalities**
 
 1. Read data from the datasets:
 
