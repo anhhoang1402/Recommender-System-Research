@@ -16,9 +16,9 @@ recommendations.py is a program that performs the following recommender system o
 
 1. Read data from the datasets:
 
-*For UU-CF, II-CF, FE, TFIDF, and Hybrid: Run command R/r for critics dataset and command RML/rml for ML-100k datasets
+* For UU-CF, II-CF, FE, TFIDF, and Hybrid: Run command R/r for critics dataset and command RML/rml for ML-100k datasets
 
-*For MF-SGD and MF-ALS: Run command PD-R/pd-r for critics dataset and command pd-rml100 or PD-RML100 for ML-100k datasets
+* For MF-SGD and MF-ALS: Run command PD-R/pd-r for critics dataset and command pd-rml100 or PD-RML100 for ML-100k datasets
 
 2. Provide statistics of the dataset:
 
