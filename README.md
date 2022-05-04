@@ -6,7 +6,7 @@ recommendations.py is a program that performs the following recommender system o
 
 1. User-Based collaborative filtering with Pearson correlation and Euclidean Distance with similarity weighting (1,25,50) and similarity threshold as parameters (UU-CF)
 2. Item-Based collaborative filtering with Pearson correlation and Euclidean Distance with similarity weighting (1,25, 50) and similarity threshold as parameters (II-CF)
-3. Matrix Factorization Stochaistic Gradient Descent (MF-SGD) with number of factors, learning rate, and regularization rate as parameters
+3. Matrix Factorization Stochastic Gradient Descent (MF-SGD) with number of factors, learning rate, and regularization rate as parameters
 4. Matrix Factorization Alternating Least Squares (MF-ALS) with number of factors and regularization rate as parameters
 5. Content-based recommender system Feature Enconding (FE)
 6. Content-based recommender system Term Frequency - Inverse Document Frequency (TFIDF) with similarity threshold as parameter
@@ -30,11 +30,11 @@ recommendations.py is a program that performs the following recommender system o
 
 * First read in data
 
-* For UU-CF: Run Simu command to produce a similarity matrix, click WP(write pearson) or WD (write distnace) if it's the first time you run the program or you want
-to produce a new similarity matrix with different parameter values otherwise run RP (Read Pearson) or RD (read distance)  command to read in the similarity matrix, and run RECS to output recommendations
-
-* For II-CF: Run Sim command to produce a similarity matrix, click WP(write pearson) or WD (write distnace) if it's the first time you run the program or you want
+* For UU-CF: Run Simu command to produce a similarity matrix, click WP(Write Pearson) or WD (Write Distance) if it's the first time you run the program or you want
 to produce a new similarity matrix with different parameter values otherwise run RP (Read Pearson) or RD (read distance) command to read in the similarity matrix, and run RECS to output recommendations
+
+* For II-CF: Run Sim command to produce a similarity matrix, click WP(Write Pearson) or WD (Write Distance) if it's the first time you run the program or you want
+to produce a new similarity matrix with different parameter values; otherwise, run RP (Read Pearson) or RD (Read Distance) command to read in the similarity matrix, and run RECS to output recommendations
 
 * For TFIDF: Run tfidf command to set up consine similarity matrix, and run RECS to output recommendations
 
