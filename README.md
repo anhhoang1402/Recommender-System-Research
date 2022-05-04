@@ -65,4 +65,4 @@ to produce a new similarity matrix with different parameter values; otherwise, r
 
 6. T-Test:
 
-Run T to output results for the T-test of our research paper
+* Run T to output results for the T-test of our research paper
