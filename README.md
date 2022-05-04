@@ -4,8 +4,8 @@
 
 recommendations.py is a program that performs the following recommender system on the crtics and ML-100k dataset from grouplens.org:
 
-1. User-Based collaborative filtering with Pearson correlation and Euclidean Distance with similarity weighting (1,25,50) and similarity threshold as parameters (UU-CF)
-2. Item-Based collaborative filtering with Pearson correlation and Euclidean Distance with similarity weighting (1,25, 50) and similarity threshold as parameters (II-CF)
+1. User-Based collaborative filtering (UU-CF) with Pearson correlation and Euclidean Distance with similarity weighting (1,25,50) and similarity threshold as parameters 
+2. Item-Based collaborative filtering (II-CF) with Pearson correlation and Euclidean Distance with similarity weighting (1,25, 50) and similarity threshold as parameters 
 3. Matrix Factorization Stochastic Gradient Descent (MF-SGD) with number of factors, learning rate, and regularization rate as parameters
 4. Matrix Factorization Alternating Least Squares (MF-ALS) with number of factors and regularization rate as parameters
 5. Content-based recommender system Feature Enconding (FE)
