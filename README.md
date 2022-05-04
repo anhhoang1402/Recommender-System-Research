@@ -31,7 +31,7 @@ recommendations.py is a program that performs the following recommender system o
 * First read in data
 
 * For UU-CF: Run Simu command to produce a similarity matrix, click WP(Write Pearson) or WD (Write Distance) if it's the first time you run the program or you want
-to produce a new similarity matrix with different parameter values otherwise run RP (Read Pearson) or RD (read distance) command to read in the similarity matrix, and run RECS to output recommendations
+to produce a new similarity matrix with different parameter values; otherwise, run RP (Read Pearson) or RD (read distance) command to read in the similarity matrix, and run RECS to output recommendations
 
 * For II-CF: Run Sim command to produce a similarity matrix, click WP(Write Pearson) or WD (Write Distance) if it's the first time you run the program or you want
 to produce a new similarity matrix with different parameter values; otherwise, run RP (Read Pearson) or RD (Read Distance) command to read in the similarity matrix, and run RECS to output recommendations
@@ -61,8 +61,8 @@ to produce a new similarity matrix with different parameter values; otherwise, r
 
 * Run the T command to set up train and test data
 
-* Run MF-SGD command or MF-ALS depending on which algorithm you want to check.
+* Run MF-SGD command or MF-ALS depending on which algorithm you want to check
 
 6. T-Test:
 
-Run T to output results for the T-test of our research paper.
+Run T to output results for the T-test of our research paper
